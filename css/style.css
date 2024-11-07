@@ -1,0 +1,177 @@
+/* common start */
+body{
+	font-family:sans-serif ;
+	font-size:16px ;
+	font-weight:400 ;
+	color:#0f2656 ;
+}
+/* common end */
+/* header start */
+header{
+	border-bottom: 3px solid #eef0f3;
+	padding: 10px 0;
+}
+.wrapper{
+	margin: 0 auto;
+	overflow: hidden;
+	width: 90%;
+
+}
+.logo{
+	width: 10%;
+	float: left;
+}
+.logo a{
+	display: block;
+
+}
+.logo a img{
+	width: 100%;
+
+}
+.menu{
+	width: 50%;
+	float: right;
+}
+.menu ul{
+    float: right;
+   
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	padding: 5px 15px;
+	text-decoration: none;
+	color: #0F2656;
+	display: block;
+	animation-duration: .50s;
+}
+.menu ul li:last-child a{
+	padding-right: 0 ;
+}
+.menu ul li a:hover{
+	color: #008AFF;
+}
+/* header end */
+/* banner start */
+.banner{
+	padding-top: 70px;
+	text-align: center;
+}
+.wrapper2{
+	margin: 0 auto;
+	width: 50%;
+	overflow: hidden;
+}
+.banner h1{
+	margin: 0;
+	font-size: 45px;
+	font-weight: 700;
+	padding: 0 30px;
+	line-height: 60px;
+}
+.banner h1 span{
+	color: #008aff;
+}
+.banner p{
+	margin: 10px 0 20px;
+	line-height: 25px;
+}
+.b_img{}
+.b_img img{}
+/* banner end */
+/* feature start */
+.feature{
+	padding-top: 70px;
+}
+.f-left{
+	width: 40%;
+	float: left;
+	text-align: right;
+}
+.f-left h2{
+	margin: 0;
+	font-size: 45px;
+	font-weight: 700;
+	color: #F15767;
+}
+.f-left p{
+	margin-top: 10px 0 0;
+	line-height: 25px;
+}
+.f-right{
+	width: 55%;
+	float: right;
+}
+.f-right h1{
+	margin: 0;
+	font-size: 45px;
+	font-weight: 700;
+}
+/* feature end */
+/* service start */
+.wrapper3 {
+	width: 90%;
+	margin: 0 auto;
+	padding: 70px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.wrapper3 h2{
+	font-size: 20px;
+	font-weight: 700;
+}
+.wrapper3 p{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.service1 {
+	width: 28%;
+	background-color: #FDEBED;
+	padding: 0px 20px 30px;
+}
+
+.s-img{
+	width: 100%;
+}
+
+.service2 {
+	width: 28%;
+	background-color: #EBF9F4;
+	padding: 0px 20px 30px;
+}
+
+.s-img2 img {
+	width: 100%;
+}
+
+.service3 {
+	width: 28%;
+	background-color: #FFF7E8;
+	padding: 0px 20px 30px;
+}
+
+.s-img3 img {
+	width: 100%;
+}
+/* service end */
+/* footer start */
+footer{
+	background-color: #008AFF;
+    text-align: center;
+    padding: 40px 0px;
+}
+footer p {
+	margin: 0;
+	color: white;
+}
+footer p a {
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+	font-weight: 700;
+}
+/* footer end */
